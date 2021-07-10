@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="x-icon/images" href="../img/reg.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Register to mentorship</title>
+	<link rel="stylesheet" type="text/css" href="./chunk.css">
+</head>
+<body background="../img/background.jpg">
+	<center>
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 success">
+			<h4 class="text-success" id="recieve">Successfully Send!</h4>
+		</div>
+		<br>
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login">
+			<di class="form-group">
+				<img src="../img/reg.png">
+				<label><b>Register!</b></label>
+				<br>
+				<label>Enter your full name: </label>
+				<input type="text" name="name" id="name" class="form-control" placeholder="Enter your full name..">
+				<label>Enter your email: </label>
+				<input type="email" name="email" id="email" class="form-control" placeholder="Enter your email..">
+				<label>Enter your name (Optional): </label>
+				<input type="text" name="msg" id="msg" class="form-control" placeholder="Suggestions..">
+				<br>
+				<div class="error_div" id="error_div">
+					<p class="text-danger">
+						<i class="fa fa-warning">&nbsp;</i>
+						Incorrect details
+					</p>
+				</div>
+				<br>
+				<button class="btn btn-warning" onclick="addMe()">
+					<img src="../img/reg.png" width="30" height="30">
+				Add Me
+			    </button>
+			</di>
+		</div>
+	</center>
+
+	<script type="text/javascript" src="./chunk.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="x-icon/images" href="img/reg.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Spacel</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body background="img/background.jpg">
+	<div class="tag">
+		<h2 class="btn btn-danger">New</h2>
+	</div>
+<center>
+	<br>
+
+	<button class="btn btn-primary" id="myBtn" onclick="topFunction()">
+		<i class="fa fa-arrow-up"></i>
+	</button>
+
+	<div class="prop">
+		<img src="img/prop.png" alt="Profile" class="prop-image"/>
+	</div>
+
+	<div class="main-content">
+		<div class="form-group">
+			<label>Hi</label>
+			<h4 class="text-default">My name is <span id="name"></span></h4>
+		</div>
+		<br>
+		<div class="note-div-main">
+			<div class="form-group">
+				<h4 class="context">I'm coming live on 15 July. This livestream not a simple livestream, on this livesteam you can ask questions regarding previous videos on our website. <b>See you soon...</b></h4>
+			</div>
+		</div>
+		<br>
+		<div class="main-div-info">
+			<div class="form-group">
+				<h5 class="text-name">Founder and CEO: <b>Gyanam Gogoi</b></h5>
+				<h5 class="text-name">Co-Founder: <b>Rahul Jain</b></h5>
+				<h5 class="text-name">Co-Founder: <b>Ditya Bhande</b></h5>
+				<h5 class="text-name">Art-Edu: <b>Janardon Konwar</b></h5>
+				<h5 class="text-name">Manager: <b>Ayush Kumar</b></h5>
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 register">
+		<div class="text-capitalize nameplate">
+			<img src="img/reg.png" alt="Register" class="space-img">
+			<b>Register to mentorship</b>
+		</div>
+		<div id="register-button-div" class="btn btn-warning" onclick="register()">Register Here</div>
+		<p class="text-muted">Click above to register mentoship sessions.</p>
+	</div>
+	<br><br>
+</center>
+
+	<script type="text/javascript" src="server.js"></script>
+</body>
+</html>
